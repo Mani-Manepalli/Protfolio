@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+body{
+    background: #081b29;
+    color: white;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: .3s;
+}
+.nav a:hover,.nav a.home{
+    color: #00abf0;
+}
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 10%;
+}
+.main{
+    max-width: 600px;
+}
+.main h1{
+
+    font-size: 56px;
+    font-weight: 700;
+}
+.main h3{
+    font-size: 28px;
+    font-weight: 700;
+    color: #00abf0;
+}
+.main p{
+
+    font-size: 16px;
+}
+.btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+.btn-box a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background-color: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
