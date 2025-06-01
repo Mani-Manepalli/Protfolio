@@ -261,3 +261,126 @@ main{
         width: 0%;
     }
 }
+@media(max-width:426px){
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .nav a{
+        margin-bottom: 10px;
+    }
+
+    .main{
+ 
+        max-width: auto;
+    
+          
+    }
+    .bg{
+        background: url(Pic7.png);
+        background-size: cover;
+    }
+    .main h1{
+
+          position: relative;
+          font-size: 45px;
+          font-weight: 700;
+          line-height: 1;
+    }
+    .main h3{
+    position: relative;
+    font-size: 22px;
+    font-weight: 700;
+    color: #00abf0;
+    }
+    .main p{
+    position: relative;
+    font-size: 16px;
+    margin: 20px 0% 40px;
+    }
+    .btn-box{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 345px;
+    height: 50px;
+    left: 0%;
+    }
+    main{
+    height: 100vh;
+    display: inline-flex;
+    padding: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    top: 10px;
+    }
+    .img::after{
+    content: '';
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 0%;
+    height: 0%;
+    background: transparent;
+    }
+    .btn-box{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 110px;
+   
+    }
+    .btn-box a{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    font-weight: 600;
+    height: 50px;
+    background-color: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.img{
+    position: absolute;
+    top: 0%;
+    right: 0px;
+    height: 100%;
+    width: 500px;
+    transition: 3s;
+}
+.img::after{
+    content: '';
+    position: absolute;
+    margin: 0%;
+    padding: ;
+    top: 0%;
+    right: 0%;
+    width: 60%;
+    height: 100%;
+    background: black;
+    animation: showright 1s ease forwards;
+    animation-delay: 2.8s;
+    z-index: 100;
+    border: 1px solid red;
+}
+.img:hover{
+    background: unset;
+    opacity: 100%;
+}
+
+   
+}
