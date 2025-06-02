@@ -261,7 +261,7 @@ main{
         width: 0%;
     }
 }
-@media(max-width:426px){
+@media(max-width:480px){
 
     .nav {
         display: flex;
@@ -366,7 +366,6 @@ p{
     content: '';
     position: absolute;
     margin: 0%;
-    padding: ;
     top: 0%;
     right: 0%;
     width: 60%;
@@ -383,4 +382,41 @@ p{
 }
 
    
+}
+@media(min-width:481px) and (max-width:768px){
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: 20px;
+    }
+    .nav a{
+        margin-bottom: 10px;
+
+    }
+
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        max-width: auto;
+        position: relative;
+        top: 0%;
+    }
+    main .main{
+        position: relative;
+        top: 0%;
+    }
+    .bg{
+        background: url(Pic7.png);
+        background-size: cover;
+    }
+    .logo{
+    position: relative;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}  
 }
