@@ -278,6 +278,13 @@ main{
     
           
     }
+    .logo{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    }
     .bg{
         background: url(Pic7.png);
         background-size: cover;
@@ -367,10 +374,10 @@ p{
     content: '';
     position: absolute;
     margin: 0%;
-    top: 0%;
+    top: 350px;
     right: 0%;
     width: 60%;
-    height: 100%;
+    height: 46%;
     background: black;
     animation: showright 1s ease forwards;
     animation-delay: 2.8s;
