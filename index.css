@@ -250,7 +250,7 @@ main{
     background: black;
     animation: showright 1s ease forwards;
     animation-delay: 2.8s;
-    z-index: 100;
+    z-index: 101;
 }
 .img:hover{
     background: black;
@@ -315,6 +315,7 @@ main{
     padding-right: 10px;
     padding-left: 10px;
     top: 10px;
+    z-index: 1;
     }
     .img::after{
     content: '';
@@ -373,8 +374,7 @@ p{
     background: black;
     animation: showright 1s ease forwards;
     animation-delay: 2.8s;
-    z-index: 100;
-    border: 1px solid red;
+    z-index: 0;
 }
 .img:hover{
     background: unset;
@@ -403,6 +403,7 @@ p{
         max-width: auto;
         position: relative;
         top: 0%;
+        
     }
     main .main{
         position: relative;
